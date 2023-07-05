@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-liveness-dev-152258-authRole",
+      "UnauthRoleArn": "arn:aws:iam::273711029273:role/amplify-liveness-dev-152258-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::273711029273:role/amplify-liveness-dev-152258-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-liveness-dev-152258-deployment",
+      "UnauthRoleName": "amplify-liveness-dev-152258-unauthRole",
+      "StackName": "amplify-liveness-dev-152258",
+      "StackId": "arn:aws:cloudformation:us-east-2:273711029273:stack/amplify-liveness-dev-152258/25bab300-d935-11ed-afd4-0a90e7027f11",
+      "AmplifyAppId": "d2080h0o9u2kij"
+    },
+    "categories": {
+      "auth": {
+        "livenessc452ff3f": {}
+      }
+    }
+  }
+}

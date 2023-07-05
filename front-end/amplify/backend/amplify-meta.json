@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-liveness-dev-152258-authRole",
+      "UnauthRoleArn": "arn:aws:iam::273711029273:role/amplify-liveness-dev-152258-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::273711029273:role/amplify-liveness-dev-152258-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-liveness-dev-152258-deployment",
+      "UnauthRoleName": "amplify-liveness-dev-152258-unauthRole",
+      "StackName": "amplify-liveness-dev-152258",
+      "StackId": "arn:aws:cloudformation:us-east-2:273711029273:stack/amplify-liveness-dev-152258/25bab300-d935-11ed-afd4-0a90e7027f11",
+      "AmplifyAppId": "d2080h0o9u2kij"
+    }
+  },
+  "auth": {
+    "livenessc452ff3f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-liveness-dev-152258-deployment/amplify-cfn-templates/auth/livenessc452ff3f-cloudformation-template.json",
+        "logicalId": "authlivenessc452ff3f"
+      },
+      "lastPushTimeStamp": "2023-04-12T13:35:54.301Z",
+      "output": {
+        "UserPoolId": "us-east-2_U7ThNanmE",
+        "AppClientIDWeb": "7ef8fvp40172h9hp23p5esc6v",
+        "AppClientID": "2mnobpao0552ssm1lfmepag38j",
+        "IdentityPoolId": "us-east-2:35d3d6aa-7828-4731-adc1-fd261a41f8c2",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:273711029273:userpool/us-east-2_U7ThNanmE",
+        "IdentityPoolName": "livenessc452ff3f_identitypool_c452ff3f__dev",
+        "UserPoolName": "livenessc452ff3f_userpool_c452ff3f"
+      },
+      "lastPushDirHash": "YMghHnCcxEOF6UkufbsV8FOCOm4="
+    }
+  }
+}

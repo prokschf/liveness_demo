@@ -1,7 +1,7 @@
 import boto3
 import json
 
-#Run: python -r requirements.txt --target .
+#Run: pip install -r requirements.txt --target .
 #zip the folder
 #upload to lambda
 
